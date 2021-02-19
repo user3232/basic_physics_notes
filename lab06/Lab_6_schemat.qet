@@ -1,0 +1,448 @@
+<project version="0.5" folioSheetQuantity="0" title="">
+    <properties/>
+    <newdiagrams>
+        <border displaycols="true" cols="17" colsize="60" displayrows="true" rows="8" rowsize="80"/>
+        <inset date="null" filename="" title="" author="" folio="%id/%total" displayAt="bottom"/>
+        <conductors numsize="7" type="multi" vertirotatetext="270" function="" tension-protocol="" onetextperfolio="0" displaytext="1" horizrotatetext="0" num="_"/>
+        <report label="%f-%l%c"/>
+        <xrefs>
+            <xref type="commutator" powerprefix="" displayhas="cross" snapto="label" showpowerctc="false" switchprefix="" delayprefix=""/>
+            <xref type="protection" powerprefix="" displayhas="cross" snapto="label" showpowerctc="false" switchprefix="" delayprefix=""/>
+            <xref type="coil" powerprefix="" displayhas="cross" snapto="label" showpowerctc="false" switchprefix="" delayprefix=""/>
+        </xrefs>
+        <conductors_autonums/>
+    </newdiagrams>
+    <diagram version="0.5" date="null" filename="" displaycols="true" title="" cols="17" colsize="60" displayrows="true" rows="8" order="1" author="" height="660" rowsize="80" folio="%id/%total" displayAt="bottom">
+        <defaultconductor numsize="7" type="multi" vertirotatetext="270" function="" tension-protocol="" onetextperfolio="0" displaytext="1" horizrotatetext="0" num="_"/>
+        <elements>
+            <element type="embed://import/10_electric/10_allpole/395_electronics&amp;semiconductors/01_resistors/resistance.elmt" orientation="0" x="480" y="200" uuid="{4c1b5caa-a229-4a25-a4d9-a91f61ba2a67}">
+                <terminals>
+                    <terminal orientation="2" x="0" y="17" name="_" nameHidden="0" number="_" id="0"/>
+                    <terminal orientation="0" x="0" y="-17" name="_" nameHidden="0" number="_" id="1"/>
+                </terminals>
+                <inputs>
+                    <input x="6" y="0" text="R"/>
+                </inputs>
+                <elementInformations>
+                    <elementInformation name="label" show="1"></elementInformation>
+                    <elementInformation name="comment" show="1"></elementInformation>
+                </elementInformations>
+            </element>
+            <element type="embed://import/10_electric/10_allpole/390_sensors&amp;instruments/70_meters&amp;measuring_indicators/voltmetre-v.elmt" orientation="0" x="530" y="200" uuid="{d3827321-6dd5-4cc0-b8bc-25ec2625cd24}">
+                <terminals>
+                    <terminal orientation="0" x="0" y="-17" name="_" nameHidden="0" number="_" id="2"/>
+                    <terminal orientation="2" x="0" y="17" name="_" nameHidden="0" number="_" id="3"/>
+                </terminals>
+                <inputs>
+                    <input x="8" y="-10.5" text="U"/>
+                </inputs>
+                <elementInformations>
+                    <elementInformation name="label" show="1">U</elementInformation>
+                </elementInformations>
+            </element>
+            <element type="embed://import/10_electric/10_allpole/390_sensors&amp;instruments/70_meters&amp;measuring_indicators/amperemetre-h.elmt" orientation="0" x="420" y="130" uuid="{344c4de8-32cb-4553-8e1b-f5ad0db437a1}">
+                <terminals>
+                    <terminal orientation="3" x="-17" y="0" name="_" nameHidden="0" number="_" id="4"/>
+                    <terminal orientation="1" x="17" y="0" name="_" nameHidden="0" number="_" id="5"/>
+                </terminals>
+                <inputs>
+                    <input userx="10" x="9" usery="-20" y="-12.5" text="I"/>
+                </inputs>
+                <elementInformations>
+                    <elementInformation name="label" show="1">I</elementInformation>
+                </elementInformations>
+            </element>
+            <element type="embed://import/10_electric/10_allpole/395_electronics&amp;semiconductors/01_resistors/resistance.elmt" orientation="0" x="330" y="170" uuid="{a7d83d62-ffb9-41a8-8935-d1f4d73d7b50}">
+                <terminals>
+                    <terminal orientation="2" x="0" y="17" name="_" nameHidden="0" number="_" id="6"/>
+                    <terminal orientation="0" x="0" y="-17" name="_" nameHidden="0" number="_" id="7"/>
+                </terminals>
+                <inputs>
+                    <input x="6" y="0" text="r"/>
+                </inputs>
+                <elementInformations>
+                    <elementInformation name="label" show="1">r</elementInformation>
+                </elementInformations>
+            </element>
+            <element type="embed://import/10_electric/10_allpole/392_generators&amp;sources/70_voltage_current_sources/tention_o.elmt" orientation="0" x="330" y="240" uuid="{645f75de-6f5d-47c4-babc-8d3679b3b63d}">
+                <terminals>
+                    <terminal orientation="0" x="0" y="-17" name="_" nameHidden="0" number="_" id="8"/>
+                    <terminal orientation="2" x="0" y="17" name="_" nameHidden="0" number="_" id="9"/>
+                </terminals>
+                <inputs>
+                    <input userx="10" x="12.75" usery="0" y="3" text="ɛ"/>
+                </inputs>
+                <elementInformations>
+                    <elementInformation name="label" show="1">ɛ</elementInformation>
+                </elementInformations>
+            </element>
+        </elements>
+        <conductors>
+            <conductor terminal1="3" numsize="7" terminal2="0" type="multi" vertirotatetext="270" x="0" function="" y="0" tension-protocol="" onetextperfolio="0" displaytext="1" horizrotatetext="0" num=""/>
+            <conductor terminal1="1" numsize="7" terminal2="2" type="multi" vertirotatetext="270" x="0" function="" y="0" tension-protocol="" onetextperfolio="0" displaytext="1" horizrotatetext="0" num=""/>
+            <conductor terminal1="5" numsize="7" terminal2="1" type="multi" vertirotatetext="270" x="0" function="" y="0" tension-protocol="" onetextperfolio="0" displaytext="1" horizrotatetext="0" num=""/>
+            <conductor terminal1="0" numsize="7" terminal2="9" type="multi" vertirotatetext="270" x="0" function="" y="0" tension-protocol="" onetextperfolio="0" displaytext="1" horizrotatetext="0" num=""/>
+            <conductor terminal1="4" numsize="7" terminal2="7" type="multi" vertirotatetext="270" x="0" function="" y="0" tension-protocol="" onetextperfolio="0" displaytext="1" horizrotatetext="0" num=""/>
+            <conductor terminal1="6" numsize="7" terminal2="8" type="multi" vertirotatetext="270" x="0" function="" y="0" tension-protocol="" onetextperfolio="0" displaytext="1" horizrotatetext="0" num=""/>
+        </conductors>
+        <inputs>
+            <input x="260" y="240" rotation="270" text="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>Zasilacz&lt;/p>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>bateria&lt;/p>&lt;/body>&lt;/html>"/>
+        </inputs>
+        <shapes>
+            <shape type="Rectangle" x1="300" x2="370" is_movable="1" style="2" y1="150" y2="280"/>
+        </shapes>
+    </diagram>
+    <collection>
+        <category name="import">
+            <names>
+                <name lang="en">Imported elements</name>
+                <name lang="fr">Éléments importés</name>
+                <name lang="ru">Импортированные элементы</name>
+                <name lang="es">Elementos importados</name>
+                <name lang="nl">Elementen geïmporteerd</name>
+                <name lang="pt">elementos importados</name>
+                <name lang="ca">Elements importats</name>
+                <name lang="de">Importierte elemente</name>
+                <name lang="cs">Zavedené prvky</name>
+                <name lang="it">Elementi importati</name>
+                <name lang="hr">Uvezeni elementi</name>
+                <name lang="ro">Elemente importate</name>
+                <name lang="el">Εισηγμένα στοιχεία</name>
+                <name lang="pl">Elementy importowane</name>
+            </names>
+            <category name="10_electric">
+                <names>
+                    <name lang="en">Electric</name>
+                    <name lang="fr">Electrique</name>
+                    <name lang="ru">Электротехника</name>
+                    <name lang="nl">Elektrotechniek</name>
+                    <name lang="de">Elektrik</name>
+                    <name lang="it">Elettrica</name>
+                    <name lang="cs">Elektrotechnika</name>
+                    <name lang="el">Ηλεκτρικά</name>
+                    <name lang="pl">Elektrotechnika</name>
+                </names>
+                <category name="10_allpole">
+                    <names>
+                        <name lang="en">All-pole</name>
+                        <name lang="fr">Multifilaire</name>
+                        <name lang="ru">Многополюсные</name>
+                        <name lang="nl">Veel polig</name>
+                        <name lang="cs">Vícežilový</name>
+                        <name lang="it">Multifilare</name>
+                        <name lang="de">Allpolig</name>
+                        <name lang="el">Πολυγραμμικό</name>
+                        <name lang="pl">Schematy wieloliniowe</name>
+                    </names>
+                    <category name="392_generators&amp;sources">
+                        <names>
+                            <name lang="en">Generators and sources</name>
+                            <name lang="fr">Générateurs et sources</name>
+                            <name lang="ru">Генераторы и источники</name>
+                            <name lang="nl">Generatoren en Voedingen</name>
+                            <name lang="de">Generatoren und Quellen</name>
+                            <name lang="cs">Generátory a zdroje</name>
+                            <name lang="it">Generatori e sorgenti</name>
+                            <name lang="el">Γεννήτριες και πηγές</name>
+                            <name lang="pl">Źródła zasilania</name>
+                        </names>
+                        <category name="70_voltage_current_sources">
+                            <names>
+                                <name lang="en">Voltage and current sources</name>
+                                <name lang="fr">Sources de tension et de courant</name>
+                                <name lang="ru">Источники напряжения и тока</name>
+                                <name lang="nl">Spanning en stroombronnen</name>
+                                <name lang="it">Generatori di corrente o tensione</name>
+                                <name lang="de">Spannungs- und Stromquellen</name>
+                                <name lang="cs">Zdroje napětí a proudu</name>
+                                <name lang="el">Πηγές τάσης και έντασης</name>
+                                <name lang="pl">Źródła napięcia i prądu</name>
+                            </names>
+                            <element name="tention_o.elmt">
+                                <definition version="0.4" hotspot_y="25" type="element" orientation="dyyy" ic="true" height="50" width="50" hotspot_x="16">
+                                    <uuid uuid="{58D522FF-5A28-406D-BC14-5383CEA07FAE}"/>
+                                    <names>
+                                        <name lang="ar">مصدر جهد (قديم)</name>
+                                        <name lang="de">Spannungsquelle (alt)</name>
+                                        <name lang="ru">Источник напряжения (старый)</name>
+                                        <name lang="pt">Fonte de tensão (antigo)</name>
+                                        <name lang="el">Παροχή τάσης (παλιό)</name>
+                                        <name lang="en">Voltage source (old)</name>
+                                        <name lang="it">Generatore di tensione (vecchio)</name>
+                                        <name lang="fr">Source de tension (vieux)</name>
+                                        <name lang="pl">Źródło napięcia (stary)</name>
+                                        <name lang="es">Fuente de tensión (antiguo)</name>
+                                        <name lang="nl">Spanningsbron oud</name>
+                                        <name lang="cs">Zdroj napětí (starý)</name>
+                                    </names>
+                                    <informations>Author: The QElectroTech team
+License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
+                                    <description>
+                                        <polygon y3="-3" x1="-3" x2="0" x3="3" style="line-style:normal;line-weight:thin;filling:black;color:black" antialias="true" y1="-3" y2="-7"/>
+                                        <line x1="0" end1="none" x2="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" antialias="false" y1="-4" y2="7"/>
+                                        <circle diameter="20" x="-10" y="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+                                        <line x1="0" end1="none" x2="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" antialias="false" y1="20" y2="10"/>
+                                        <input tagg="label" x="12.75" y="3" size="9" text="_"/>
+                                        <line x1="0" end1="none" x2="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" antialias="false" y1="-20" y2="-10"/>
+                                        <terminal orientation="n" x="0" y="-21" name="" nameHidden="0" number=""/>
+                                        <terminal orientation="s" x="0" y="21" name="" nameHidden="0" number=""/>
+                                    </description>
+                                </definition>
+                            </element>
+                        </category>
+                    </category>
+                    <category name="395_electronics&amp;semiconductors">
+                        <names>
+                            <name lang="en">Electronics and semiconductors</name>
+                            <name lang="fr">Electronique et semi-conducteurs</name>
+                            <name lang="ru">Электроника и полупроводники</name>
+                            <name lang="nl">Electronica en halfgeleiders</name>
+                            <name lang="it">Elettronica e semiconduttori</name>
+                            <name lang="de">Elektronik und Halbleiter</name>
+                            <name lang="el">Ηλεκτρονικά και ημιαγωγοί</name>
+                            <name lang="pl">Elektronika i półprzewodniki</name>
+                        </names>
+                        <category name="01_resistors">
+                            <names>
+                                <name lang="en">Resistors</name>
+                                <name lang="fr">Résistances</name>
+                                <name lang="ru">Резисторы</name>
+                                <name lang="es">Resistencia</name>
+                                <name lang="nl">Weerstand</name>
+                                <name lang="pt">Resistência</name>
+                                <name lang="de">Widerstände</name>
+                                <name lang="it">Resistori</name>
+                                <name lang="cs">Odporník</name>
+                                <name lang="el">Αντιστάσεις</name>
+                                <name lang="ar">مُقاومة</name>
+                                <name lang="pl">Rezystory</name>
+                            </names>
+                            <element name="potentiometre.elmt">
+                                <definition version="0.5" hotspot_y="29" type="element" orientation="dyyy" height="60" link_type="simple" width="30" hotspot_x="22">
+                                    <uuid uuid="{74a84819-b1fe-49bf-bd19-9b0a2a8a277d}"/>
+                                    <names>
+                                        <name lang="de">Potentiometer</name>
+                                        <name lang="el">Ποτενσιόμετρο</name>
+                                        <name lang="pl">Potencjometr</name>
+                                        <name lang="ar">بوتونسيومتر</name>
+                                        <name lang="it">Potenziometro</name>
+                                        <name lang="en">Potentiometer</name>
+                                        <name lang="cs">Potenciometr</name>
+                                        <name lang="fr">Potentiomètre</name>
+                                        <name lang="nl">Potentiometer</name>
+                                    </names>
+                                    <informations>Author: The QElectroTech team
+License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
+                                    <description>
+                                        <line x1="-15" x2="-5" end1="none" end2="triangle" style="line-style:normal;line-weight:normal;filling:black;color:black" length1="1.5" length2="1.5" y1="0" antialias="false" y2="0"/>
+                                        <input tagg="label" x="7.5" y="3.3333" size="9" rotate="true" text="R_"/>
+                                        <line x1="0" x2="0" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" y1="-10" antialias="false" y2="-20"/>
+                                        <line x1="0" x2="0" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" y1="10" antialias="false" y2="20"/>
+                                        <line x1="4" x2="4" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" y1="10" antialias="false" y2="-10"/>
+                                        <line x1="-4" x2="4" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" y1="10" antialias="false" y2="10"/>
+                                        <line x1="4" x2="-4" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" y1="-10" antialias="false" y2="-10"/>
+                                        <line x1="-4" x2="-4" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" y1="-10" antialias="false" y2="10"/>
+                                        <terminal orientation="n" x="0" y="-21"/>
+                                        <terminal orientation="s" x="0" y="21"/>
+                                        <terminal orientation="w" x="-16" y="0"/>
+                                    </description>
+                                </definition>
+                            </element>
+                            <element name="resistance.elmt">
+                                <definition version="0.5" hotspot_y="29" type="element" orientation="dyyy" height="60" link_type="simple" width="20" hotspot_x="10">
+                                    <uuid uuid="{af30335a-4d6f-4d8c-a3a5-60c5e1d43dc7}"/>
+                                    <names>
+                                        <name lang="el">Αντίσταση</name>
+                                        <name lang="fr">Résistance</name>
+                                        <name lang="de">Widerstand</name>
+                                        <name lang="cs">Odporník</name>
+                                        <name lang="ru">Резистор</name>
+                                        <name lang="es">Resistencia</name>
+                                        <name lang="ar">مُقاومة</name>
+                                        <name lang="it">Resistore</name>
+                                        <name lang="pl">Rezystor</name>
+                                        <name lang="en">Resistor</name>
+                                        <name lang="pt">Resistência</name>
+                                        <name lang="nl">Weerstand</name>
+                                    </names>
+                                    <informations>EN 60617: 04-01-01</informations>
+                                    <description>
+                                        <line x1="0" end1="none" x2="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" y1="-10" antialias="false" y2="-20"/>
+                                        <line x1="0" end1="none" x2="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" y1="10" antialias="false" y2="20"/>
+                                        <line x1="4" end1="none" x2="4" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" y1="10" antialias="false" y2="-10"/>
+                                        <line x1="-4" end1="none" x2="4" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" y1="10" antialias="false" y2="10"/>
+                                        <line x1="4" end1="none" x2="-4" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" y1="-10" antialias="false" y2="-10"/>
+                                        <line x1="-4" end1="none" x2="-4" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" y1="-10" antialias="false" y2="10"/>
+                                        <input tagg="label" x="6" y="0" size="9" rotate="true" text="_"/>
+                                        <terminal orientation="s" x="0" y="21"/>
+                                        <terminal orientation="n" x="0" y="-21"/>
+                                    </description>
+                                </definition>
+                            </element>
+                        </category>
+                    </category>
+                    <category name="390_sensors&amp;instruments">
+                        <names>
+                            <name lang="en">Sensors and instruments</name>
+                            <name lang="fr">Capteurs et instruments</name>
+                            <name lang="ru">Датчики и инструменты</name>
+                            <name lang="nl">Sensoren en instrumenten</name>
+                            <name lang="it">Sensori e misuratori</name>
+                            <name lang="de">Sensoren und Messgeräte</name>
+                            <name lang="cs">Čidla a měřiče</name>
+                            <name lang="el">Αισθητήρες και όργανα</name>
+                            <name lang="pl">Czujniki i przyrządy</name>
+                        </names>
+                        <category name="70_meters&amp;measuring_indicators">
+                            <names>
+                                <name lang="en">Meters and measuring indicators</name>
+                                <name lang="fr">Compteurs et afficheurs de mesure</name>
+                                <name lang="ru">Измерители и инзмерительные индикаторы</name>
+                                <name lang="es">Contadores</name>
+                                <name lang="nl">Meters</name>
+                                <name lang="de">Zähler und Messanzeigegeräte</name>
+                                <name lang="cs">Počítadla</name>
+                                <name lang="it">Misuratori</name>
+                                <name lang="el">Μετρητές</name>
+                                <name lang="ar">عدّادات</name>
+                                <name lang="pl">Liczniki</name>
+                            </names>
+                            <element name="amperemetre-h.elmt">
+                                <definition hotspot_y="15" version="0.5" type="element" orientation="dyyy" height="30" link_type="simple" width="60" hotspot_x="29">
+                                    <uuid uuid="{3408823a-37c5-436e-9770-9214313ce209}"/>
+                                    <names>
+                                        <name lang="cs">Vodorovný ampérmetr</name>
+                                        <name lang="nl">Amperemeter</name>
+                                        <name lang="it">Amperometro orizzontale</name>
+                                        <name lang="ru">Амперметр (горизонтальный)</name>
+                                        <name lang="pt">Amperímetro horizontal</name>
+                                        <name lang="de">Amperemeter waagerecht</name>
+                                        <name lang="el">Αμπερόμετρο οριζόντιο</name>
+                                        <name lang="en">Horizontal ammeter</name>
+                                        <name lang="fr">Ampèremètre horizontal</name>
+                                        <name lang="es">Amperímetro horizontal</name>
+                                        <name lang="pl">Amperomierz (poziomo)</name>
+                                        <name lang="ar">أمبيرمتر أفقي</name>
+                                    </names>
+                                    <informations>Author: The QElectroTech team
+License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
+                                    <description>
+                                        <input tagg="label" x="9" y="-12.5" size="9" rotate="true" text="_"/>
+                                        <line x1="-1.75" end1="none" x2="1.75" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" antialias="false" y1="0" y2="0"/>
+                                        <line x1="10" end1="none" x2="21" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" antialias="false" y1="0" y2="0"/>
+                                        <line x1="-21" end1="none" x2="-10" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" antialias="false" y1="0" y2="0"/>
+                                        <polygon closed="false" y3="6" x1="-5" x2="0" x3="5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" y1="6" y2="-6"/>
+                                        <circle diameter="20" x="-10" y="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+                                        <terminal orientation="w" x="-21" y="0"/>
+                                        <terminal orientation="e" x="21" y="0"/>
+                                    </description>
+                                </definition>
+                            </element>
+                            <element name="voltmetre-v.elmt">
+                                <definition hotspot_y="29" version="0.5" type="element" orientation="dyyy" height="60" link_type="simple" width="30" hotspot_x="15">
+                                    <uuid uuid="{3f85e6af-e598-41b1-be6f-24a8a9ef0b6e}"/>
+                                    <names>
+                                        <name lang="cs">Voltmetr, svislý</name>
+                                        <name lang="nl">Voltmeter</name>
+                                        <name lang="it">Volmetro verticale</name>
+                                        <name lang="ru">Вольтметр (вертикальный)</name>
+                                        <name lang="pt">Voltímetro vertical</name>
+                                        <name lang="de">Voltmeter senkrecht</name>
+                                        <name lang="el">Βολτόμετρο κατακόρυφο</name>
+                                        <name lang="en">Vertical voltmeter</name>
+                                        <name lang="fr">Voltmètre vertical</name>
+                                        <name lang="es">Voltímetro vertical</name>
+                                        <name lang="pl">Woltomierz (pionowo)</name>
+                                        <name lang="ar">فولتمتر عمودي</name>
+                                    </names>
+                                    <informations>Author: The QElectroTech team
+License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
+                                    <description>
+                                        <line x1="0" end1="none" x2="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" antialias="false" y1="10" y2="21"/>
+                                        <input tagg="label" x="8" y="-10.5" size="9" rotate="true" text="_"/>
+                                        <line x1="0" end1="none" x2="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" antialias="false" y1="-21" y2="-10"/>
+                                        <polygon closed="false" y3="-6" x1="-5" x2="0" x3="5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" y1="-6" y2="6"/>
+                                        <circle diameter="20" x="-10" y="-10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+                                        <terminal orientation="n" x="0" y="-21"/>
+                                        <terminal orientation="s" x="0" y="21"/>
+                                    </description>
+                                </definition>
+                            </element>
+                        </category>
+                    </category>
+                </category>
+                <category name="11_singlepole">
+                    <names>
+                        <name lang="en">Single pole</name>
+                        <name lang="fr">Unifilaire</name>
+                        <name lang="ru">Однополюсные</name>
+                        <name lang="nl">Enkel pool</name>
+                        <name lang="cs">Jednopólové</name>
+                        <name lang="it">Unifilare</name>
+                        <name lang="de">Einpolig</name>
+                        <name lang="el">Μονογραμμικό</name>
+                        <name lang="pl">Schematy jednoliniowe</name>
+                    </names>
+                    <category name="395_electronics&amp;semiconductors">
+                        <names>
+                            <name lang="en">Electronics and semiconductors</name>
+                            <name lang="fr">Electronique et semi-conducteurs</name>
+                            <name lang="ru">Электроника и полупроводники</name>
+                            <name lang="nl">Electronica en halfgeleiders</name>
+                            <name lang="de">Elektronik und Halbleiter</name>
+                            <name lang="cs">Elektronika a polovodiče</name>
+                            <name lang="it">Elettronica e semiconduttori</name>
+                            <name lang="el">Ηλεκτρονικά και ημιαγωγοί</name>
+                            <name lang="pl">Elektronika i półprzewodniki</name>
+                        </names>
+                        <category name="10_resistors">
+                            <names>
+                                <name lang="en">Resistors</name>
+                                <name lang="fr">Résistances</name>
+                                <name lang="ru">Резисторы</name>
+                                <name lang="es">Resistencia</name>
+                                <name lang="nl">Weerstand</name>
+                                <name lang="pt">Resistência</name>
+                                <name lang="de">Widerstände</name>
+                                <name lang="it">Resistori</name>
+                                <name lang="cs">Odporník</name>
+                                <name lang="el">Αντιστάσεις</name>
+                                <name lang="ar">مُقاومة</name>
+                                <name lang="pl">Rezystory</name>
+                            </names>
+                            <element name="resistance.elmt">
+                                <definition version="0.3" hotspot_y="25" type="element" orientation="dnny" height="50" width="20" hotspot_x="10">
+                                    <uuid uuid="{795F5D63-C74F-48CD-9004-322B122731BD}"/>
+                                    <names>
+                                        <name lang="ar">مُقاومة</name>
+                                        <name lang="de">Widerstand</name>
+                                        <name lang="ru">Резистор</name>
+                                        <name lang="pt">Resistência</name>
+                                        <name lang="el">Αντίσταση</name>
+                                        <name lang="en">Resistor</name>
+                                        <name lang="it">Resistore</name>
+                                        <name lang="fr">Résistance</name>
+                                        <name lang="pl">Rezystor</name>
+                                        <name lang="es">Resistencia</name>
+                                        <name lang="cs">Odporník</name>
+                                        <name lang="nl">Weerstand</name>
+                                    </names>
+                                    <informations>Author: The QElectroTech team
+License: see http://qelectrotech.org/wiki/doc/elements_license</informations>
+                                    <description>
+                                        <line x1="0" end1="none" x2="0" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" antialias="false" y1="-10" y2="-20"/>
+                                        <line x1="4" end1="none" x2="4" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" antialias="false" y1="10" y2="-10"/>
+                                        <line x1="-4" end1="none" x2="4" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" antialias="false" y1="10" y2="10"/>
+                                        <line x1="4" end1="none" x2="-4" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" antialias="false" y1="-10" y2="-10"/>
+                                        <line x1="-4" end1="none" x2="-4" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" length1="1.5" length2="1.5" antialias="false" y1="-10" y2="10"/>
+                                        <terminal orientation="n" x="0" y="-21"/>
+                                    </description>
+                                </definition>
+                            </element>
+                        </category>
+                    </category>
+                </category>
+            </category>
+        </category>
+    </collection>
+</project>

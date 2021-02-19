@@ -1,0 +1,2 @@
+# ignore notebooks backups
+**.ipynb_checkpoints/
